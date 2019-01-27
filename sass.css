@@ -1,0 +1,100 @@
+body {
+  background-image: url("55555.jpg");
+}
+
+body .header {
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  background-color: white;
+  border: 1px solid #323538;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  margin-left: 40%;
+}
+
+body .div_inputs {
+  margin-left: 31%;
+  margin-top: 6px;
+}
+
+body .errormsg {
+  font-size: 2em;
+  font-weight: bolder;
+  color: red;
+  text-align: center;
+}
+
+body .border {
+  background-color: white;
+}
+
+body .taskcard {
+  position: relative;
+  width: 13em;
+  height: 15.5em;
+  background-color: #e0e0c8;
+  border: 2px solid #532f00;
+  display: inline-block;
+  margin-right: 3em;
+  margin-left: 3em;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+  padding-left: 0.3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  -webkit-transition: background-color 2s, -webkit-transform 2s;
+  transition: background-color 2s, -webkit-transform 2s;
+  transition: background-color 2s, transform 2s;
+  transition: background-color 2s, transform 2s, -webkit-transform 2s;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+body .taskcard:hover {
+  background-color: #ffff99;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+body .taskstyle {
+  display: inline-block;
+  position: relative;
+  height: 10em;
+  width: 11em;
+  top: 0.5em;
+  left: 0.5em;
+  overflow: auto;
+  word-wrap: break-word;
+  color: #323538;
+  margin-bottom: 20px;
+}
+
+body .datestyle {
+  border: 1px solid #323538;
+  margin-top: 5px;
+}
+
+body .timestyle {
+  border: 1px solid #323538;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+body i#x {
+  float: right;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  opacity: 0;
+}
+
+body i#x:hover {
+  opacity: 1;
+}
+
+body textarea {
+  margin-left: 30%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, #f87b72 25px);
+}
+/*# sourceMappingURL=sass.css.map */

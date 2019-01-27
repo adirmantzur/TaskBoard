@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="sass.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="head">My Task Board</h1>
+    </div>
+
+
+    <div>
+        <form name="notes-form">
+            <textarea name="note" id="text-area" cols="100" rows="7" placeholder="Enter a Task Here"></textarea>
+            <br>
+            <div class="div_inputs">
+                <a class="border">
+                    <label class="labal_inputs">Date:</label></a>
+                <input type="date" name="date_input" class="date_input">
+                <a class="border">
+                    <label class="labal_inputs">Time:</label></a>
+                <input type="time" name="time_input" class="time_input">
+
+                <button type="button" class="btn btn-primary" onclick="add()">Add</button>
+                <button type="reset" class="btn btn-secondary" >Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <p id="errormsg" class="errormsg"></p>
+
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-12">
+                <div id="taskcontainer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
